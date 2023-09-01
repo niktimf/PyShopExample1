@@ -97,7 +97,7 @@ fn get_score(game_stamps: &[Stamp], offset: i32) -> (i32, i32) {
 
 
 fn main() {
-    
+
     let game = generate_game();
     let offset = 1000;
     let (home_score, away_score) = get_score(&game, offset);
